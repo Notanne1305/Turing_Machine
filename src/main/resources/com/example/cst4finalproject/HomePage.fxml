@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+
+
+
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_turingmachine.HelloController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="483.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="640.0" />
+        <ImageView fitHeight="619.0" fitWidth="483.0" layoutX="-146.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../ImageUsed/BG2.jpeg" />
+            </image>
+        </ImageView>
+        <Rectangle arcWidth="5.0" fill="#00000080" height="483.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="640.0" />
+        <Text fill="#db81ef" layoutX="39.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TURING MACHINE" wrappingWidth="333.066650390625">
+            <font>
+                <Font name="Tektur Narrow Bold" size="70.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="263.0" fitWidth="349.0" layoutX="-13.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../ImageUsed/Alan%20Turing%20Final%20Picture.png" />
+            </image>
+        </ImageView>
+        <Text fill="#ffffff00" layoutX="39.0" layoutY="178.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.5" text="TURING MACHINE" wrappingWidth="333.066650390625">
+            <font>
+                <Font name="Tektur Narrow Bold" size="70.0" />
+            </font>
+        </Text>
+        <Text fill="#db81ef" layoutX="39.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Turing ">
+            <font>
+                <Font name="Tektur Narrow Regular" size="25.0" />
+            </font>
+        </Text>
+
+        <Text fill="WHITE" layoutX="37.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Father ot Modern Computing ">
+            <font>
+                <Font name="Tektur Narrow Regular" size="18.0" />
+            </font>
+        </Text>
+
+        <Text fill="#db81ef" layoutX="358.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Turing machine is an abstract computational model that performs computations by reading and writing to an infinite tape. Turing machines provide a powerful computational model for solving problems in computer science and testing the limits of computation. In this, platform, you will be able to witness how this phenomenal state of the art machine works." textAlignment="CENTER" wrappingWidth="241.5740814208986">
+            <font>
+                <Font name="Tektur Narrow Regular" size="17.0" />
+            </font>
+        </Text>
+        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="47.0" layoutX="430.0" layoutY="372.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="117.0" />
+        <JFXButton layoutX="393.0" layoutY="371.0" prefHeight="51.0" prefWidth="191.0" text="START" textFill="WHITE">
+            <font>
+                <Font name="Tektur Narrow Regular" size="20.0" />
+            </font>
+        </JFXButton>
+        <Polygon fill="#5a3eb8" layoutX="435.0" layoutY="415.0" points="-17.0, -30.20001220703125, 3.0, -30.20001220703125, -5.0, -43.0" stroke="#5a3eb8" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#5a3eb8" layoutX="553.0" layoutY="449.0" points="4.79998779296875, -42.800018310546875, -6.0, -29.800018310546875, -13.20001220703125, -42.800018310546875" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="35.0" layoutX="394.0" layoutY="384.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="48.0" />
+        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="35.0" layoutX="536.0" layoutY="372.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="48.0" />
+        <!--      <SVGPath content="M22.4323 35.7536L14.8281 28.5268L0 42.9804L44.1042 87.1018L69.1979 61.9982L52.0885 44.8822L45.2448 51.7286L55.5104 61.9982L44.1042 73.4089L14.4479 43.3607L22.4323 35.7536Z" fill="WHITE" layoutX="8.0" layoutY="11.0" />-->
+        <!--      <SVGPath content="M42.5833 35.3732L36.1198 41.8393L19.0104 25.1036L43.7239 0L87.4479 43.3607L72.6198 58.1946L66.1562 51.3482L74.1406 43.3607L44.1041 13.3125L32.3177 25.1036L42.5833 35.3732Z" fill="WHITE" layoutX="8.0" layoutY="11.0" />-->
+    </children>
+</AnchorPane>

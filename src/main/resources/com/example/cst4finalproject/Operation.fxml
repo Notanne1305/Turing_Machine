@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_turingmachine.HelloController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="483.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="640.0" />
+        <ImageView fitHeight="619.0" fitWidth="483.0" layoutX="-146.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Images/BG2.jpeg" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000080" height="483.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="640.0" />
+        <Text fill="#db81ef" layoutX="39.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TURING MACHINE" wrappingWidth="333.066650390625">
+            <font>
+                <Font name="Tektur Narrow Bold" size="70.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="213.0" fitWidth="288.0" layoutX="21.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Images/Alan%20Turing%20Final%20Picture.png" />
+            </image>
+        </ImageView>
+        <Text fill="#ffffff00" layoutX="39.0" layoutY="176.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.5" text="TURING MACHINE" wrappingWidth="333.066650390625">
+            <font>
+                <Font name="Tektur Narrow Bold" size="70.0" />
+            </font>
+        </Text>
+        <Text fill="#db81ef" layoutX="39.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Turing ">
+            <font>
+                <Font name="Tektur Narrow Regular" size="25.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="37.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Father ot Modern Computing ">
+            <font>
+                <Font name="Tektur Narrow Regular" size="18.0" />
+            </font>
+        </Text>
+        <!--      <SVGPath content="M22.4323 35.7536L14.8281 28.5268L0 42.9804L44.1042 87.1018L69.1979 61.9982L52.0885 44.8822L45.2448 51.7286L55.5104 61.9982L44.1042 73.4089L14.4479 43.3607L22.4323 35.7536Z" fill="WHITE" layoutX="8.0" layoutY="11.0" />-->
+        <!--      <SVGPath content="M42.5833 35.3732L36.1198 41.8393L19.0104 25.1036L43.7239 0L87.4479 43.3607L72.6198 58.1946L66.1562 51.3482L74.1406 43.3607L44.1041 13.3125L32.3177 25.1036L42.5833 35.3732Z" fill="WHITE" layoutX="8.0" layoutY="11.0" />-->
+    </children>
+</AnchorPane>
